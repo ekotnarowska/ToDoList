@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodersLab</title>
+    <script src="https://kit.fontawesome.com/38a7c873fe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <p class="counter">Number of tasks to do:
+        <span id="counter">0
+        </span>
+    </p>
+    <div class="input-container">
+    <input id="taskInput" placeholder="Place your task here"><br>
+    <button id="addTaskButton" class="btn btn-secondary">Add task</button>
+    </div>
+
+    <ul id="taskList">
+        <!--<li>
+            <h1>Task 1</h1>
+            <button>Delete</button>
+            <button>Complete</button>
+        </li>
+        <li class="done">
+            <h1>Task 2</h1>
+            <button>Delete</button>
+            <button>Complete</button>
+        </li>-->
+    </ul>
+
+    <button id="removeFinishedTasksButton" class="btn btn-secondary">Remove finished tasks</button>
+</div>
+</body>
+</html>
